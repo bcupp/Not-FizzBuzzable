@@ -1,0 +1,16 @@
+<h1>Hello! Let's see a random quote!</h1>
+
+<input type="checkbox" ng-model="myCheck" />
+
+
+<div ng-hide="myCheck">
+
+<form>
+  <button type="button" ng-click="randomQuote()">Generate quote</button>
+<div ng-repeat='object in quoteArray'>
+  <p>Your movie is {{object.author}}</p>
+  <p>Your quote is '{{object.quote}}'</p>
+</div>
+
+  </div>
+</form>

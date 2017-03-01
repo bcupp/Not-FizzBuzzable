@@ -1,0 +1,19 @@
+.button {
+    color: green;
+    background-color: white;
+    font-style: normal;
+    font-size: 25;
+}
+
+foot-dir {
+    color: black;
+    font-size: 35;
+    border-style: double;
+    border-color: blue;
+    border-width: thick;
+}
+
+h1 {
+    color: red;
+    border-style: groove;
+}
