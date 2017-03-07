@@ -1,5 +1,7 @@
 var app = angular.module("myMod");
+console.log("AAA")
 app.factory("fizzBuzzFactory", function() {
+    console.log("BBB")
     var answer;
     return {
         fizzBuzz: function(userInput) {
@@ -13,6 +15,7 @@ app.factory("fizzBuzzFactory", function() {
                 answer = "Your number is not fizzBuzzable";
             }
             console.log(answer);
+            return answer;
 
         },
         inputReturn: function(){
